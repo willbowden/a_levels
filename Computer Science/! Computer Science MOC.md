@@ -1,5 +1,9 @@
 # Computer Science
 # A-Level Chapters
+- Section 7 - **Data Structures**
+	- 37 - [[Queues]]
+	- 38 - [[Lists]]
+	- 39 - [[Stacks]]
 - Section 9 - **Regular Languages**
 	- 50 - [[Mealy Machines]]
 	- 51 - [[Sets]]

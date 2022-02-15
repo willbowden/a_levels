@@ -1,10 +1,10 @@
 # IP Addresses
 - An Internet protocol or IP address is a unique numerical address used to identify a host computer or network node trying to communicate over IP on the Internet.
 - IPv4 addresses provide 4 billion possible addresses.
-- IPv6 uses hexadecimal addresses rather than binary, providing 340 trillion, trillion, trillion unique addresses.
+- IPv6 uses 128-bit hexadecimal addresses rather than binary, providing 340 trillion, trillion, trillion unique addresses.
 
 ### IPv4
-- An IPv4 address consists of a 32-bit number written in a dotted-part represents an 8 bit binary pattern giving a range of 0-255 for each decimal number.
+- An IPv4 address consists of a 32-bit number written in a dotted structure. Each part represents an 8 bit binary pattern giving a range of 0-255 for each decimal number.
 
 ### Reserved IP Addresses
 - 127.x.x.x are private, non-routable addresses used for diagnostics within local networks only.
@@ -13,7 +13,7 @@
 - x.x.x.1 is conventionally the default router address.
 
 ### Network & Host Identifiers
-- An IPv4 address contains two parts to identify both the individual network and the host computer within that network. The network part of the address uses the first bits in the 32-bitherefore the size of the network ID determines the number of bits remaining in the address for the host ID.
+- An IPv4 address contains two parts to identify both the individual network and the host computer within that network. The network part of the address uses the first bits in the 32-bit IP address. Therefore the size of the network ID determines the number of bits remaining in the address for the host ID.
 
 ### Classful Addressing
 - Historically, systems of classes were used to define the size or proportion of the network and host identifiers within an IP address. Class A networks had very few network identifiers (7 bits), for example.

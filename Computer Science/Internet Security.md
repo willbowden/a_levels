@@ -38,7 +38,7 @@
 - A **digital signature** is a way of verifying the sender of a message's identity, and that the message has not been tampered with.
 - Firstly, a mathematical value is calculated from the unencrypted message data. This is known as a hash total, checksum or digest. 
 - Any change to the message will produce a different hash total.
-- The sender of the message uses their own private key to encrypt the hash total. The encrypted total becomes the digital signal since only the holder of the private key could have encrypted it.
+- The sender of the message uses their own private key to encrypt the hash total. The encrypted total becomes the digital signature  since only the holder of the private key could have encrypted it.
 - The signature is attached to the message to be sent, then the whole message is encrypted using the recipient's public key before being sent.
 - The recipient decrypts the message using their private key, then decrypts the digital signature using the sender's public key. 
 - The hash total is reproduced based on the message data and if this matches that in the digital signature, the message is verifiable.
