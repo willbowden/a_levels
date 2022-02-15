@@ -4,6 +4,9 @@
 	- 37 - [[Queues]]
 	- 38 - [[Lists]]
 	- 39 - [[Stacks]]
+	- 40 - [[Hash Tables & Dictionaries]]
+	- 41 - [[Graphs]]
+	- 42 - [[Trees]]
 - Section 9 - **Regular Languages**
 	- 50 - [[Mealy Machines]]
 	- 51 - [[Sets]]
